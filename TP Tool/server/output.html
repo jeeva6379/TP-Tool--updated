@@ -1,0 +1,197 @@
+<html>
+  <head>
+    <title>Highlighted Text and Word Counts</title>
+  </head>
+  <body>
+    <div style="display:table;">
+      Implementation of Fuzzy logic for controlling the recharge rate electric vehicles and minimizing images losses in the electric power system 
+A.Sumithara
+Department of Electrical and Electronics Engineering, 
+Government College of Technology, Coimbatore.
+ barathshabari@gmail.com	S.Chitra
+Department of Electrical and Electronics Engineering, 
+Government College of Technology, 
+Coimbatore.
+India	N.M.G.Kumar
+Department of Electrical and Electronics Engineering, 
+Mohan Babu University, 
+Sree Vidyanikethan Engineering College, 
+Tirupathi, Andhra Pradesh. nmgkumar@gmail.com	
+Ramya.D
+Department of Electrical and Electronics Engineering, 
+Sathyabama Institute of Science and Technology, 
+Rajiv Gandhi Salai, Chennai. ramya.devasahayam@gmail.com
+
+ <span style='background-color:#FF00FF; color: white; display:table;'>&nbsp;Thoroughfare mishap&nbsp;</span> 
+
+ <span style='background-color:#0000FF; color: white; display:table;'>&nbsp;preformation AND (rat OR mouse OR mice) AND (final destiny OR ultimate destiny)&nbsp;</span> manmade cognizance	K.Ravikumar
+Department of computer science and Engineering(Cyber Securirty), Karpagam College of Engineering, Coimbatore. mkravikkumar@gmail.com	 	
+
+<h5>Abstract</h5>- The concerns [ <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;1&nbsp;</span> &nbsp;</span> &nbsp;</span> ] about the [ <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;2&nbsp;</span> &nbsp;</span> ] environment have also grown considerably, raising serious questions about the harmful effects of pollutants emitted by automobiles. Allied to these reasons, there is also an increase in concerns about energy security and fossil energy reserves, which have been promoting a considerable dissemination of the use of plug-in electric vehicles (PEVs) in comparison to jeeva  <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;et&nbsp;</span> &nbsp;</span> &nbsp;</span> &nbsp;</span>   <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;al&nbsp;</span> &nbsp;</span> &nbsp;</span> &nbsp;</span>  combustion-powered ones. This work develops a system based on fuzzy logic to control the recharge rate of plug-in hybrid electric vehicles (HEVs) in order to minimize losses in the electric power system (EPS). This work investigate the optimization strategy to minimize system losses. Also check the influence of the priority entered by the consumer in recharging a plug-in hybrid EV (PHEV). Also the importance of the optimization strategy in the system operation is investigated. [ <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;1&nbsp;</span> &nbsp;</span> &nbsp;</span> ]
+
+Keywords- plug-in hybrid EV, Electric vehicles, Recharge control system, Fuzzy logic, state of charge, distribution operation center
+I. 
+The fleets of plug-in hybrid EVs (HEVs) have 
+Software-Defined (SDN) settings more optimistic growth projections compared to pure electric ones, as they have greater autonomy and, at the same time, low local pollutant emission rates. Thus, the PHEV is a prominent technology that is expected to play a key role in the automotive industry.
+Both types of plug-in EVs need to connect to the electrical grid from time to time to recharge their batteries. In this case, the vehicle consumes energy from the system acting as a load for it. If a significant number of vehicles require recharging without proper coordination being applied, the operation of the electrical system may experience certain complications. This is especially true during peak periods, when overloads and inappropriate voltages can arise in distribution networks. In addition, stability problems and the dispatch of expensive and polluting thermoelectric plants to supply the increase in demand may also occur.
+Therefore, it is known that the impacts resulting from HEVs on the electrical system can be minimized and benefits can be achieved with the application of a recharge control strategy, minimizing the impact on the electrical network.
+The PHEV will only be used to assist the electricity grid if the consumer is willing to provide the car for this purpose. Thus, in addition to taking into account the current condition of the electrical system, the consumer's requirements for having their vehicle fully recharged within the connection time for recharging must be considered. With this request, the owner defines whether he will need the vehicle after recharging or not, making it available to assist the system.
+In this way, it is defined that the vehicle owner must enter a priority in which he wants his battery to be completely filled within the connection time for recharging. In this context, a low value indicates that he is willing to supply his PHEV to the grid, and his battery may not be fully recharged after disconnection. A high priority ensures complete charging, not powering the vehicle to benefit the electrical system. 
+II. LITERATURE REVIEW
+Literature [11] show that, by combining the charging of EVs with the generation of photovoltaic solar energy, one can maximize the benefits and minimize the costs with large penetrations of the two technologies in the electricity sector, reducing emissions resulting from charging of EVs at peak times. The work concludes that the greater the level of penetration of EVs recharging, the greater the importance of photovoltaic solar energy.
+The purpose of this work [12] is to determine the maximum number of 3-phase charging points installed in a low-voltage residential distribution network.
+In [13], Tte main goal is to reduce energy costs by maximizing EV storage. Smart EV Priority (SEP) was developed to maximize EV storage utilization and battery life. 
+This paper [14] proposes a two-layer design and operation framework to determine the optimal EVCS and EV deployment locations to reduce peak loads and network congestion in low-voltage distribution networks, considering the behavior of uncertain distribution networks.
+This paper [15] conducts a comprehensive cost analysis to arrive at the optimal scheduling scenario, taking into account changes in EV penetration, charging preferences and customer conversion costs. 
+This work [16] proposes innovative architectures for distribution network voltage control adapted to different development levels of actual control and monitoring systems: coordinated control of the core deployment network, centralized control based on fully articulated system network optimization. Centralized control suits grid requirements: It is difficult to reconcile the regulatory framework and modeling of generator capacity curves with discrete control of on-load tap-changers.
+The proposed model can be used to reduce peak demand and valley filling taking into account the final battery state of charge (SOC) established by the user and limiting the recharge rate (RR) to appropriate values. The authors apply fuzzy controllers in substation aggregators and recharge stations for coordination. In order to guarantee the efficiency of the proposed model, a robust bidirectional communication must exist between the acting interfaces and this can be an obstacle in the current electrical system. 
+III. RECHARGE CONTROL SYSTEM
+The figure 1 illustrates the exchange of information between the DOC and an aggregator. 
+
+Legend: TxR - RR; SOCi - State of initial charge; SOCf - State of final charge; ti - PHEV connection time; tf - PHEV disconnection time; Bcap HEV; PminA -Aggregator minimum power; PmaxA -Aggregator maximum power.
+Fig. 1. General Architecture of the Intelligent System for Controlling the Recharging of Plug-In Hybrid EVs aiming at the Benefit of the EPS.
+Once connected to the grid for charging, the PHEV transmits the following data to the battery: 1) the initial SOCi, which represents the current charge percentage of the conslusion battery; 2) Initial contact time (ti), which represents the charging time. 3) Battery capacity (Bcap), that is, how much energy the battery can store.
+During the delivery process, the owner also informs the collector of three pieces of data: 1) the final SOCf the battery wants to charge; 2) the time you want to charge the battery (tf) and 3) the time you want the battery to be connected to power, to fully charge it to final SOC.
+The adjuster is responsible for the six input variables it receives from each vehicle in the fleet, and determines the minimum and maximum amount of power the system must receive to meet the minimum or total vehicle charge percentage for a specified period of time. al
+Each complex informs the DOC of the minimum and maximum energy values PminA and PmaxA, respectively. The DOC then receives information about the power system and power interval received from the collector to optimally perform moving normal (ARIMA)  <span style='background-color:#FF0000; color: white; display:table;'>&nbsp;sign to noise&nbsp;</span> 
+The DOC returns to each collector the best power value it has calculated within its limits. Based on a fuzzy controller running on its interface, the battery calculates the charging rate for each PHEV, and returns this value so that it can be charged.
+The * signs on the PD and TxR variables represent the initial and average values for the battery charge rate and available power used to process the proposed system, but are not the final values to be used. That is, PD* and TxR* are part of the computation, but PD is only passed to the battery for distribution to PHEVs, and TxR only indicates the charge rate per vehicle.
+The fuzzy controller is defined by programming the power control system using the Fuzzy Toolbox in the MATLAB environment. The electrical network test was created and run in the OpenDSS Distribution System emulator, where the power flow was resolved.
+IV. FUZZY CONTROLLER MODELING APPLIED TO RECHARGE CONTROL
+The fuzzy methodology is chosen to compose the core of the recharge control of this project, given that the priority inserted by the consumer becomes part of the system (ROSS, 2010). The inference method used was Mandami, where the output is defined as membership functions. A general approach to fuzzy logic and fuzzy inference systems is presented in Appendix A.
+The fuzzy controller has the two input variables ∆SOC and priority and the output variable initial RR (TxR*), and the set of rules is responsible for defining the output based on the inputs. The general representation of this controller is illustrated in Figure 2.
+
+Fig. 2. Fuzzy controller structure for this application.
+The set of rules and membership functions were chosen empirically. That is, each one of them was defined and tests were carried out with different combinations. The set that returned the best responses was chosen to compose the controller.
+A. Membership functions
+The input membership function ∆SOC, which represents the percentage of the battery to be recharged, was divided into three fuzzy sets: low, medium and high. This implies that the battery may require low, medium or high charging. After some tests, the membership functions for this variable were defined as shown in Figure 3. The representation using the vector of three elements of the sets is defined as shown in Equation (1). Sumithara
+Low : [−40, 0, 40]
+Average : [10, 50, 90]
+High : [60, 100, 140]          (1)
+Fig. 3. Fuzzy sets for the input variable ∆SOC.
+ The second input variable, priority, was defined with three fuzzy sets: no, maybe, and yes. After testing, we obtained the best definition of the sets that are presented in Figure 4 and represented by vectors of three and four elements of Equation (2).
+No : [−0, 36, −0, 04, 0, 0655, 0, 3358]
+Maybe : [0, 1479, 0, 432, 0, 721]
+Yes : [0, 5945, 0, 927, 1, 01, 1, 17]   (4.13)
+
+Fig. 4. Fuzzy sets for the priority input variable.
+ The initial RR output variable, TxR*, was divided into four fuzzy sets: zero, low, medium and high. Therefore, the vehicle will receive energy from the aggregator at a zero, low, medium or high rate. The arrangement of membership functions found to be most suitable for this application are illustrated in Figure 5.
+
+Fig. 5. Fuzzy sets for the RR output variable (TxR).
+B. Set of rules
+For the previously defined fuzzy sets of input and output, the rules presented in Table 4 were created. All of them have the same weight and can also be interpreted in the simplified way shown in Table 5.
+The previous tables explain that depending on the value of ∆SOC and priority of the PHEV, a given fuzzy set of the TxR* output is triggered. For example, if the SOC difference to be completed is low and the consumer wants the battery to be fully recharged within the connection time, then the initial RR will be set to low. If the battery requires high charge and there is also charging priority, then the initial charge rate is returned as high.
+C. Other parameters Sumithara
+After running simulations with the fuzzy controller. 
+and highest maximum methods were also tested, but the bisector was the one that minimized the sum of residual times.
+Residual time is defined as the time the vehicle connected for recharging (∆tV EHPi) to the time required to recharge the battery using the RR calculated by the controller (∆tSOCi). The two terms are obtained by Equations (3) and (4), respectively, and the residual time by (5).
+∆tPHEVi=tf-ti  (3)
+∆tSOCi=∆SOCi100×TxRi*    (4)
+Residual time=∆tPHEVi-∆tSOCi  (5)
+In this condition, the RR must increase in the next iteration to meet the recharge if the priority is high. With that, some changes are made to the system for calculating the RR in order to ensure that the owner's priority has more influence on the calculated RRs.
+D. Calculation of RR
+The first modification after obtaining the initial RR, consists of weighting it directly as a function of the connection time for charging, ∆tV EHPi, and the time required to recharge the vehicle, ∆tSOCi. This weight is directly applied to each RR as in Equation (6), 
+TxRi*=TxRi*×[1-∆tPHEVi-∆tSOCi]×priorityiα    (6)
+Where α is a dimensionless constant obtained from the simulation to allow for a small increment in the RR. In this work its value was assigned as 104. Both ∆tV EHPi and ∆tSOC times are given in hours and TxRi* and priorityi are dimensionless. If a vehicle has a lower than expected RR to hit the target SOC and the priority is high, then the RR will become a higher value.The modification is the power balance process that the vehicles will receive with the power available in the aggregator, as in Equation (7).
+inPHEVPPHEVi=PD    (7)
+Where PPHEVi is the power of vehicle i, nPHEV is the PHEVs, and PD, is the available power. The power balance coordinates the charging of PHEVs of the electrical grid.
+Equation (8) shows the modification as in Equation (6).
+Preqi=TxRi×Bcapi∆t     (8)
+Where TxRi - the RR of vehicle i; Bcapi is the Bcap of vehicle i; ∆t is the simulation discretization interval, and; Preq is the power required by vehicle i.
+Afterwards, mathematical normalization is applied with respect to the available power in the aggregator to reach the power balance. Equation (9) presents the normalization performed, where PD is the power available in the aggregator, in watts.
+Preqi=Preqi×PDiPreqi   (9)
+With the values of power required by each normalized vehicle, the inverse process of Equation (10) is applied to recalculate the RR.
+TxRi=Preqi×∆tBcapi   (10)
+The calculation of the minimum and maximum powers, the execution of the fuzzy controller, the calculation of the RRs and the optimization strategy were built and tested in the MATLAB programming environment, and the fuzzy logic toolbox was used to build the controller. The power flow of the test system with the penetration of the PHEV fleets was executed in the OpenDSS software. Therefore, MATLAB communicates with OpenDSS, updating the value of the power sent to each aggregator according to that calculated by the optimization method.
+V. RESULTS AND DISCUSSION
+For the application of the optimization method, the 34 bus test feeder of the IEEE Power & Energy Society available in PES (2010) and schematically represented in Figure 6 was used. This test network is a typical distribution system, with a nominal voltage of 24.9 kV. It is characterized by being radial with two voltage regulators, a transformer reducing the voltage to 4.16 kV for a small portion of the feeder, unbalanced loads both distributed and concentrated, and shunt capacitors. The parameters of the feeder used are also available in PES (2010).
+Nine fleets of plug-in hybrid EVs were allocated at nodes 810, 822, 826, 864, 856, 890, 848, 838 and 840, as shown in Figure 7, where the minimum and maximum powers used for each fleet. Each fleet is managed by an aggregator and the nine aggregators, in turn, communicate with the DOC.
+The control of the HEVs RR is performed in each aggregator based on the fuzzy controller and using the power values ​​received from the DOC. In the DOC is the optimization strategy that defines the power values ​​for each aggregator, within the minimum and maximum power range, based on the system conditions in order to minimize electrical losses. The objective function and restrictions used were presented in Equations (4) and (5).
+OpenDSS is specific software for simulating electrical energy distribution systems, helping to integrate distributed resources and modernize the electrical network for a smart grid environment. Among its main functionalities, it allows the integration of its simulations with other computational Sumithara tools.
+
+
+Fig. 6. IEEE 34 bus test feeder used for the simulations.
+
+Fig. 7. Fleets of allocated HEVs and their respective minimum and maximum power on the  test feeder.                                     
+
+The first result extracted consisted of computing the test grid power flow by OpenDSS without the insertion of any plug-in hybrid EV. 273.3 kW of electrical losses were obtained in the lines and transformers. In this case, the losses represented 15.44% of the total circuit load.
+Afterwards, the minimum power values ​​were assigned to each aggregator, obtaining a total of 355.9 kW of electrical losses, with the execution of the power flow. The losses represented a total percentage of 17.93% of the entire installed load. The power demanded for all nine aggregators totals 235 kW, being the sum of the minimum powers of each fleet. With this value demanded, the insertion of HEVs represents 11.84% of the entire installed load.
+Third, the grid power flow was computed considering the maximum power for each aggregator. In this stage, 575.2 kW of total losses were obtained in the circuit, representing 24.45% of the total circuit load. In this scenario, the total power demanded by the aggregators totaled 660 kW, being the sum of all the maximum powers of the nine fleets. The insertion of HEVs represents 28.06% of the entire load installed on the feeder.
+Of the three previously simulated cases, it appears that electrical losses increase as HEV penetration increases. Losses represented 15.44% in the first scenario without PHEVs, rising to 17.93% in the case with fleets requiring minimum power and, finally, 24.45% in the scenario with maximum power. Table 6 presents a summary of the losses obtained for each case discussed above without the optimization strategy.
+The application of the optimization strategy seeks to obtain power values ​​for the aggregators, within the minimum and maximum limits of each one, in order to minimize the total electrical losses of the circuit. Therefore, it is expected that the losses will not be smaller than the second base case previously simulated, where each aggregator receives its minimum demanded power.
+
+Tabela 6 - Data obtained for the three cases without optimization
+	Without HEV	Aggregators Receiving
+Minimum Power	Aggregators Receiving Maximum Power	
+PD (kW)	0	234	660	
+PD(%)	0	11.84	28.06	
+Total Losess (kW)	273.30	355.90	575.20	
+Total Losess (%)	15.44	17.9	24.45	
+In addition, the total demand of all aggregators must be between the requested value with the minimum powers and the required value with the maximum powers, in cases 2 and 3, respectively. That is, the total demand required for the aggregators will be between 235 kW and 660 kW.
+With the optimization strategy implemented in MATLAB and the electrical networktest described and solved in OpenDSS, different power values ​​were attributed to each aggregator. For each set of powers of the nine aggregators, the power flow was computed and the values ​​of total electrical losses were stored.
+From the simulations performed, three optimized cases were selected for comparison. The main data extracted from each case are presented in Table 7. It indicates the powers assigned to each aggregator, the sum of the total power demanded by the aggregators, the percentage of insertion of the HEVs in relation to the total installed load, the total losses of the circuit and the total percentage losses. Sumithara
+Optimized case 1 in Table 7 was the one that returned the lowest total circuit losses for the simulations performed. It resulted in 379.03 kW, representing 18.30% of the entire installed load. The total demand requested by the aggregators was 336.43 kW, accounting for 16.24% of the installed load.
+Comparing the optimized case 1 with the non-optimized case where maximum power was delivered to the HEVs, the losses were reduced by more than 6%. On the other hand, comparing the first optimized case with the non-optimized case in which the minimum powers were assigned, the losses increased by 0.37%. Thus, the optimization strategy reduced the circuit losses compared to the maximum power delivered in each aggregator and approached in the case where the minimum power was defined for each fleet, being these last two unoptimized cases.  
+
+Table 7 - Data obtained for the three cases with optimization.
+		Optimized case 1		Optimized case 2		Optimized case 3	
+P810 (kW)		70.66		91.92		96.04	
+P822 (kW)		30.33		47.68		53.00	
+P826 (kW)		18.60		14.70		21.51	
+P864 (kW)		51.60		61.40		51.69	
+P856 (kW)		25.70		50.63		40.38	
+P848 (kW)		38.20		47.20		40.36	
+P890 (kW)		38.05		32.50		34.39	
+P838 (kW)		26.80		28.56		39.51	
+P840 (kW)		36.51		21.03		37.96	
+PD (kW)		336.45		395.81		414.84	
+PD(%)	16.24		18.58		18.58	
+Total Losess (kW)	379.03		395.62		399.11	
+Total Losess (%)		18.30		18.57		18.58	
+
+The other two optimized cases in Table 7 show that similar values ​​of losses were also observed in the simulations, however, both losses were greater than in optimized case 1. For optimized case 2, the losses were 395.62 kW, representing 18 .57% of the total load. And in optimized case 3, the losses were 399.11 kW, being 18.58% of the total installed load.
+It is also verified that, despite the three cases having similar percentage loss values, the total power calculated for the fleets differs more significantly, being 336.45 kW in case 1, 395.62 kW in case 2 and 414.84 kW in case 3, representing, respectively, 16.24%, 18.58% and 19.31% of the total load. With this, in addition to minimizing electrical losses, one can also seek to maximize the total energy delivered to the fleets.
+In addition, it can include the minimization of the recharge time based on the priorities inserted by the consumers. Implying that aggregators with high density of priorities will also have preference to receive energy from the electrical grid. Thus, fleets with HEVs with higher priorities than other aggregators will also take this high priority to the DOC, which will compute an incremented power value in the optimization strategy.
+VI. <h5>Conclusion</h5>
+This work developed a system to control the recharge of plug-in hybrid EVs aiming at benefiting the EPS. The main variables of the proposed methodology jeeva  <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;et&nbsp;</span> &nbsp;</span> &nbsp;</span> &nbsp;</span>   <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;al&nbsp;</span> &nbsp;</span> &nbsp;</span> &nbsp;</span>  were the SOC of the battery, the period of connection for recharging, the priority of the consumer and the parameters of the electrical network test. The recharge system developed is based on the fuzzy controller, which is composed of several parameters, such as membership functions and a set of rules. The choice of these parameters is an empirical process, based [ <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;1&nbsp;</span> &nbsp;</span> &nbsp;</span> ] on some initial recommendations. <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;et&nbsp;</span> &nbsp;</span> &nbsp;</span> &nbsp;</span>   <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;al&nbsp;</span> &nbsp;</span> &nbsp;</span> &nbsp;</span>  
+ In this way, the system responds appropriately to solve the problem presented considering the chosen parameters. This ensures that the system is smart and optim [ <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;2&nbsp;</span> &nbsp;</span> ]  <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;et&nbsp;</span> &nbsp;</span> &nbsp;</span> &nbsp;</span>   <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp; <span style='background-color:yellow; color: black; display:table;'>&nbsp;al&nbsp;</span> &nbsp;</span> &nbsp;</span> &nbsp;</span>  ized for the scope of this work.. DDoS attacks
+
+
+
+
+<h5>References</h5>
+	
+Y. Quan and Y. Tang, "Electric vehicle demand response technology based on traffic-grid coupling networks," Proceedings of the CSEE, vol. 41, no. 5, pp. 1627-1637, 2021. 
+Z. Liu, Q. Zhang, and Z. H. U. Yi, "Spatial-temporal distribution prediction of charging loads for electric vehicles considering vehicle-road-station-grid integration," Automation of Electric Power Systems, vol. 46, no. 12, pp. 36-45, 2022.
+M. Zhang, Z. Wu, Q. Zhang, and X. Yang, "EV charging load forecasting considering urban traffic road network and user psychology under multi-time scenarios," in Proceedings of the International Conference on Smart Power & Internet Energy Systems (SPIES), pp. 315-321, Shanghai, China, September 2021.
+S. Amirghodsi, A. B. Naeini, and A. Makui, "An integrated delphi-DEMATEL-ELECTRE method on gray numbers to rank technology providers," IEEE Transactions on Engineering Management, vol. 69, no. 4, pp. 1348-1364, 2022.  <span style='background-color:yellow; color: black; display:table;'>&nbsp;A.Sumithara&nbsp;</span> 
+S. H. I. Wenchao, L. Y. U. Lin, and G. A. O. Hongjun, "Economic dispatch of active distribution network with participation of demand response and electric vehicle," Automation of Electric Power Systems, vol. 44, no. 11, pp. 41-55, 2020. Sumithara Sumithara Sumithara
+W. Zhang and D. Wang, "Real-time demand response scheduling strategy for electric vehicles based on cloud edge collaboration," Power System Technology, vol. 46, no. 4, pp. 1447-1458, 2022.  <span style='background-color:yellow; color: black; display:table;'>&nbsp;N.M.G.Kumar&nbsp;</span> 
+H. Reza Massrur, T. Niknam, and M. Fotuhi-Firuzabad, "Day-ahead energy management framework for a networked gas-heat-electricity microgrid," IET Generation, Transmission & Distribution, vol. 13, no. 20, pp. 4617-4629, 2019.    <span style='background-color:yellow; color: black; display:table;'>&nbsp;A.Sumithara&nbsp;</span>   <span style='background-color:yellow; color: black; display:table;'>&nbsp;A.Sumithara&nbsp;</span> 
+s
+H. R. Zafarani, S. A. Taher, and M. Shahidehpour, "Robust operation of a multicarrier energy system considering EVs and CHP units," Energy, vol. 192, pp. 116703-116712, 2020.
+H. George-Williams, N. Wade, and R. N. Carpenter, "A probabilistic framework for the techno-economic assessment of smart energy hubs for electric vehicle charging," Renewable and Sustainable Energy Reviews, vol. 162, Article ID 112386, 2022.
+S. Pirouzi, J. Aghaei, T. Niknam et al., "Power conditioning of distribution networks via single-phase electric vehicles equipped," IEEE Systems Journal, vol. 13, no. 3, pp. 3433-3442, 2019.
+Vithayasrichareon, P.; Mills, G.; Macgill, I. F. Impact of Electric Vehicles and Solar PV on Future Generation Portfolio Investment. IEEE Transactions on Sustainable Energy, v. 6, n. 3, p. 899-908, 2015.
+M. Carrión, R. Zárate-Miñano, and R. Domínguez, "Integration of electric vehicles in low-voltage distribution networks considering voltage management," Energies, vol. 13, p. 4125, 2020.
+A. Sudhakar and B. M. Kumar, "Maximum exploitation of electric vehicle storage in smart micro grids with stochastic  renewable sources," Journal of Energy Storage, vol. 48, no. 2022, Article ID 104029, 2022.
+K. Prakash, M. Ali, M. Siddique et al., "Bi-level planning and scheduling of electric vehicle charging stations for peak shaving and congestion management in low voltage distribution networks," Computers & Electrical Engineering, vol. 102, no. 2022, Article ID 108235, 2022.
+X. Wang, Y. Nie, and K. W. E. Cheng, "Distribution system planning considering stochastic EV penetration and V2G behavior," IEEE Transactions on Intelligent Transportation Systems, vol. 21, no. 1, pp. 149-158, 2020.
+V. Ilea, C. Bovo, D. Falabretti et al., "Voltage control methodologies in active distribution networks," Energies, vol. 13, p. 3293, 2020. Sumithara
+Software-Defined (SDN)
+Software-Defined (SDN)  <span style='background-color:yellow; color: black; display:table;'>&nbsp;A.Sumithara&nbsp;</span>   <span style='background-color:yellow; color: black; display:table;'>&nbsp;A.Sumithara&nbsp;</span>   <span style='background-color:yellow; color: black; display:table;'>&nbsp;A.Sumithara&nbsp;</span> 
+
+    </div><br/><br/>
+    <div>
+    <h3>Torture Phrases Word Counts:</h3>
+      <ul>
+        <div style='color: #FF0000; '>sign to noise: 1</div><div style='color: #0000FF; '>preformation AND (rat OR mouse OR mice) AND (final destiny OR ultimate destiny): 1</div><div style='color: #FF00FF; '>Thoroughfare mishap: 1</div>
+      </ul>
+    </div>
+    <br/>
+    <h3>Self citation </h3>
+    <ul><div>A.Sumithara - 6</div><div>N.M.G.Kumar - 1</div></ul>  <br/>
+          <h3>Reference Citation & et. al. found in Abstract & Conclusion Sections </h3>
+          <ul><div>[1]</div><div>[2]</div><div>et</div><div>al</div><div>[1]</div><div>et</div><div>al</div><div>[1]</div><div>et</div><div>al</div><div>[2]</div><div>et</div><div>al</div></ul> 
+  
+  </body></html>
